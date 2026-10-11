@@ -1,0 +1,12 @@
+# Easy Handshake Wallet -- bootstrap seed nodes (Brontide only).
+# Format, one per line:   brontideKey|ip|port|label
+# Blank lines and lines starting with '#' are ignored.
+# Same file name and format as the node's seeds.txt. Merged additively
+# into the wallet's seed_nodes table every time the wallet database is
+# opened: new lines are added, existing scores are never overwritten.
+# Keep this file in the wallet project's src/main/resources folder.
+#
+# TESTING PHASE: only our own Easy Handshake VPS node is listed, so every
+# wallet restore, sync, send, receive and DNS action is exercised against
+# it. Add the public seeds back from the node's seeds.txt before release.
+ankr3dykvs3ftnc5e5anw24qjky2hi5mcipfx7zwbjh3v6ivoibim|144.91.81.19|44806|easy-handshake-vps
